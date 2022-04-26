@@ -56,7 +56,6 @@ export default {
 
 .slider{
     margin:auto auto 3vh auto;
-    background-color: black;
     overflow: hidden;
     position: relative;
 }

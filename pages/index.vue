@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <Bar/>
+        <NavBar/>
         <div class="main-box">
             <div class="project-box">
                 <h1>Bienvenue sur le site du jeu Mikuni</h1>
@@ -46,7 +46,6 @@ h1{
     display: flex;
     flex-flow: column;
     height: 100vh;
-    background-color: #fff7f5;
     margin: 0;
     padding: 0;
     .main-box {
@@ -55,7 +54,7 @@ h1{
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-between;
-        margin:17% 2.5% 0.3% 2.5%;
+        margin:10% 2.5% 0.3% 2.5%;
         border: 0.5vw solid #473030;
         background-image: url("../assets/mikuni.png");
         flex-grow: 1;

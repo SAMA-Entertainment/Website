@@ -1,10 +1,11 @@
 <template>
     <div id="sites">
-        <Bar/>
+        <NavBar/>
         <div class="main-box-sites">
             <div class="sitesect-box-sites">
                 <h1>Les outils que nous avons utilisés</h1>
-                <Slider :width="1280" :pictures="['Sofiane.png']"/>
+                <Slider :width="1280" :pictures="['unity.png','Blender.png','photon.jpg','github.png','gitlab.png',
+                                                  'rider.png','fl-studio.png','adobexd.png','webstorm.png']"/>
             </div>
         </div>
         <p class="mention-sites">Sofiane - Manassé - Aurélien - Alexandre</p>
@@ -27,6 +28,9 @@ export default {
     src:url("../assets/BowlbyOne-Regular.ttf") format("truetype");
 }
 
+template{
+    background-color: #fff7f5;
+}
 #sites{
     font-family: Mikuni, sans-serif;
     margin: 0;
@@ -35,7 +39,6 @@ export default {
     display: flex;
     flex-flow: column;
     height: 100vh;
-    background-color: #fff7f5;
     margin: 0;
     padding: 0;
     .main-box-sites {
@@ -44,7 +47,7 @@ export default {
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-between;
-        margin:17% 2.5% 0.3% 2.5%;
+        margin:10% 2.5% 0.3% 2.5%;
         border: 0.5vw solid #473030;
         background-color: #fff7f5;
         flex-grow: 1;

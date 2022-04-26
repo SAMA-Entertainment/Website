@@ -1,5 +1,8 @@
 <template>
-    <a href="#downloadbut"><button class="button"><h2>Télécharger</h2></button></a>
+    <a href="#downloadbut">
+        <button class="button">
+        <h2>Télécharger</h2>
+        <span>(Coming Soon...)</span></button></a>
 </template>
 
 <script>
@@ -13,13 +16,15 @@ export default {
     padding: 1.3vh 5vw;
     margin: 2vh 10vw;
     color: #10324d;
+    font-weight: bold;
     background-color: #ffdfe0;
     font-family: sans-serif;
     text-align: center;
     position: relative;
     text-decoration: none;
     display: inline-block;
-    border: 1px solid;
+    border: 1vh solid #10324d;
+    border-radius: 10px;
 }
 .button:hover {
     color: #ffdfe0;

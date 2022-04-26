@@ -1,18 +1,27 @@
 <template>
     <div id="proj">
-        <Bar/>
+        <NavBar/>
         <div class="main-box-proj">
             <div class="project-box-proj">
                 <h1>La "SAMATEAM"</h1>
-                <Slider :width="1280" :pictures="['SAMA.png','Us.png','Sofiane.png','Manassé.png','Aurélien.png']"/>
+                <Slider :pictures="['SAMA.png','Us.png','Sofiane.png','Manassé.png','Aurélien.png',
+                                                  'Alexandre.png']"/>
                 <h1>L'évolution du Jeu</h1>
                 <Slider :width="1280" :pictures="[
-                    'menu1.png',
-                    'menu2.png']"/>
+                    'game1.png',
+                    'game2.png',
+                    'game3.png',
+                    'game4.png',
+                    'game5.png']"/>
                 <h1>L'évolution du Menu</h1>
                 <Slider :width="1280" :pictures="[
                     'menu1.png',
-                    'menu2.png']"/>
+                    'menu2.png',
+                    'menu3.png',
+                    'menu4.png',
+                    'menu5.png',
+                    'menu6.png',
+                    'menu7.png']"/>
             </div>
         </div>
         <p class="mention-proj">Sofiane - Manassé - Aurélien - Alexandre</p>
@@ -43,7 +52,6 @@ export default {
     display: flex;
     flex-flow: column;
     height: 100vh;
-    background-color: #fff7f5;
     margin: 0;
     padding: 0;
     .main-box-proj {
@@ -52,7 +60,7 @@ export default {
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-between;
-        margin:17% 2.5% 0.3% 2.5%;
+        margin:10% 2.5% 0.3% 2.5%;
         border: 0.5vw solid #473030;
         background-color: #fff7f5;
         flex-grow: 1;
