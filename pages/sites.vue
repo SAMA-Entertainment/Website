@@ -1,19 +1,19 @@
 <template>
-    <div id="app">
+    <div id="sites">
         <Bar/>
-        <div class="main-box">
-            <div class="project-box">
-                <h1>Bienvenue sur le site du jeu Mikuni</h1>
-                <DownBut/>
+        <div class="main-box-sites">
+            <div class="sitesect-box-sites">
+                <h1>Les outils que nous avons utilisés</h1>
+                <Slider :width="1280" :pictures="['Sofiane.png']"/>
             </div>
         </div>
-        <p class="mention">Sofiane - Manassé - Aurélien - Alexandre</p>
+        <p class="mention-sites">Sofiane - Manassé - Aurélien - Alexandre</p>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'Index',
+    name: 'sitesect',
 }
 </script>
 
@@ -27,41 +27,34 @@ export default {
     src:url("../assets/BowlbyOne-Regular.ttf") format("truetype");
 }
 
-h1{
-
-    background:linear-gradient(to right,#ffdfe0,#fff7f5,#afdefc);
-    opacity: 0.7;
-    color:black;
-    margin:0 2vw;
-    padding: 20px;
-}
-
-#app{
+#sites{
     font-family: Mikuni, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-#app {
     display: flex;
     flex-flow: column;
     height: 100vh;
     background-color: #fff7f5;
     margin: 0;
     padding: 0;
-    .main-box {
-        min-height: 90vh;
+    .main-box-sites {
+        min-height: fit-content;
         flex:1 1 90%;
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-between;
         margin:17% 2.5% 0.3% 2.5%;
         border: 0.5vw solid #473030;
-        background-image: url("../assets/mikuni.png");
+        background-color: #fff7f5;
         flex-grow: 1;
     }
-    .project-box {
-
+    .sitesect-box-sites{
+        h1{
+            background: #fff7f5;
+            color: #10324d;
+            font-size: xxx-large;
+        }
         font-family: SAMA;
         display: flex;
         flex-flow: column nowrap;
@@ -71,7 +64,7 @@ h1{
         position: relative;
     }
 
-    .mention {
+    .mention-sites {
 
         font-family: SAMA;
         font-size: 18px;

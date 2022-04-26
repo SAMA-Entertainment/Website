@@ -1,19 +1,27 @@
 <template>
-    <div id="app">
+    <div id="proj">
         <Bar/>
-        <div class="main-box">
-            <div class="project-box">
-                <h1>Bienvenue sur le site du jeu Mikuni</h1>
-                <DownBut/>
+        <div class="main-box-proj">
+            <div class="project-box-proj">
+                <h1>La "SAMATEAM"</h1>
+                <Slider :width="1280" :pictures="['SAMA.png','Us.png','Sofiane.png','Manassé.png','Aurélien.png']"/>
+                <h1>L'évolution du Jeu</h1>
+                <Slider :width="1280" :pictures="[
+                    'menu1.png',
+                    'menu2.png']"/>
+                <h1>L'évolution du Menu</h1>
+                <Slider :width="1280" :pictures="[
+                    'menu1.png',
+                    'menu2.png']"/>
             </div>
         </div>
-        <p class="mention">Sofiane - Manassé - Aurélien - Alexandre</p>
+        <p class="mention-proj">Sofiane - Manassé - Aurélien - Alexandre</p>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'Index',
+    name: 'Project',
 }
 </script>
 
@@ -27,41 +35,34 @@ export default {
     src:url("../assets/BowlbyOne-Regular.ttf") format("truetype");
 }
 
-h1{
-
-    background:linear-gradient(to right,#ffdfe0,#fff7f5,#afdefc);
-    opacity: 0.7;
-    color:black;
-    margin:0 2vw;
-    padding: 20px;
-}
-
-#app{
+#proj{
     font-family: Mikuni, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-#app {
     display: flex;
     flex-flow: column;
     height: 100vh;
     background-color: #fff7f5;
     margin: 0;
     padding: 0;
-    .main-box {
-        min-height: 90vh;
+    .main-box-proj {
+        min-height: fit-content;
         flex:1 1 90%;
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-between;
         margin:17% 2.5% 0.3% 2.5%;
         border: 0.5vw solid #473030;
-        background-image: url("../assets/mikuni.png");
+        background-color: #fff7f5;
         flex-grow: 1;
     }
-    .project-box {
-
+    .project-box-proj{
+        h1{
+            background: #fff7f5;
+            color: #10324d;
+            font-size: xxx-large;
+        }
         font-family: SAMA;
         display: flex;
         flex-flow: column nowrap;
@@ -71,7 +72,7 @@ h1{
         position: relative;
     }
 
-    .mention {
+    .mention-proj {
 
         font-family: SAMA;
         font-size: 18px;

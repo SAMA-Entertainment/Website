@@ -1,5 +1,5 @@
 <template>
-    <a href="#downloadbut"><button class="button">Télécharger</button></a>
+    <a href="#downloadbut"><button class="button"><h2>Télécharger</h2></button></a>
 </template>
 
 <script>
