@@ -2,7 +2,7 @@
     <div id="sites">
         <NavBar/>
         <div class="main-box-sites">
-            <div class="sitesect-box-sites">
+            <div class="project-box-sites">
                 <h1>Les outils que nous avons utilisés</h1>
                 <Slider :width="1280" :pictures="['unity.png','Blender.png','photon.jpg','github.png','gitlab.png',
                                                   'rider.png','fl-studio.png','adobexd.png','webstorm.png']"/>
@@ -14,7 +14,7 @@
 
 <script>
 export default {
-    name: 'sitesect',
+    name: 'Sites',
 }
 </script>
 
@@ -28,9 +28,6 @@ export default {
     src:url("../assets/BowlbyOne-Regular.ttf") format("truetype");
 }
 
-template{
-    background-color: #fff7f5;
-}
 #sites{
     font-family: Mikuni, sans-serif;
     margin: 0;
@@ -44,15 +41,15 @@ template{
     .main-box-sites {
         min-height: fit-content;
         flex:1 1 90%;
+        width: 90%;
+        margin: 10% auto auto auto;
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-between;
-        margin:10% 2.5% 0.3% 2.5%;
         border: 0.5vw solid #473030;
         background-color: #fff7f5;
-        flex-grow: 1;
     }
-    .sitesect-box-sites{
+    .project-box-sites{
         h1{
             background: #fff7f5;
             color: #10324d;

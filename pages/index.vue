@@ -35,14 +35,11 @@ h1{
     margin:0 2vw;
     padding: 20px;
 }
-
 #app{
     font-family: Mikuni, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-#app {
     display: flex;
     flex-flow: column;
     height: 100vh;
@@ -51,16 +48,20 @@ h1{
     .main-box {
         min-height: 90vh;
         flex:1 1 90%;
+        width: 90%;
+        margin: 10% auto auto auto;
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-between;
-        margin:10% 2.5% 0.3% 2.5%;
         border: 0.5vw solid #473030;
         background-image: url("../assets/mikuni.png");
-        flex-grow: 1;
     }
-    .project-box {
-
+    .project-box{
+        h1{
+            background: #fff7f5;
+            color: #10324d;
+            font-size: xxx-large;
+        }
         font-family: SAMA;
         display: flex;
         flex-flow: column nowrap;

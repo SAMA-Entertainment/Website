@@ -3,8 +3,10 @@
         <router-link to="/"><img src="../assets/mikuni_logo.png" class="logo"></router-link>
         <ul>
             <li><router-link to="/">Accueil</router-link></li>
+            <li><router-link to="us">Qui sommes-nous ?</router-link></li>
             <li><router-link to="/project">Notre Projet</router-link></li>
             <li><router-link to="/sites">Réalisations</router-link></li>
+            <li><router-link to="/download">Télécharger</router-link></li>
             <!--<li><router-link to="/#game">Le Jeu</router-link></li>-->
         </ul>
     </div>
@@ -60,5 +62,4 @@ export default {
         }
     }
 }
-
 </style>

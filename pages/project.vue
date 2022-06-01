@@ -3,9 +3,6 @@
         <NavBar/>
         <div class="main-box-proj">
             <div class="project-box-proj">
-                <h1>La "SAMATEAM"</h1>
-                <Slider :pictures="['SAMA.png','Us.png','Sofiane.png','Manassé.png','Aurélien.png',
-                                                  'Alexandre.png']"/>
                 <h1>L'évolution du Jeu</h1>
                 <Slider :width="1280" :pictures="[
                     'game1.png',
@@ -44,6 +41,7 @@ export default {
     src:url("../assets/BowlbyOne-Regular.ttf") format("truetype");
 }
 
+
 #proj{
     font-family: Mikuni, sans-serif;
     margin: 0;
@@ -57,13 +55,13 @@ export default {
     .main-box-proj {
         min-height: fit-content;
         flex:1 1 90%;
+        width: 90%;
+        margin: 10% auto auto auto;
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-between;
-        margin:10% 2.5% 0.3% 2.5%;
         border: 0.5vw solid #473030;
         background-color: #fff7f5;
-        flex-grow: 1;
     }
     .project-box-proj{
         h1{
