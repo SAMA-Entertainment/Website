@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <img :src="require(`../assets/${image}`)">
+    <div id=""img-txt>
+        <img id="image" :src="require(`../assets/${image}`)">
         <p>{{paragraphe}}</p>
     </div>
 </template>
@@ -17,11 +17,11 @@ export default {
 </script>
 
 <style lang="scss">
-div{
+#img-txt{
     display: flex;
     flex-direction: row;
     width: 100%;
-    img{
+    #image{
         margin: 2%;
         flex: 1 1 20%;
         max-width: 20%;

@@ -1,7 +1,7 @@
 <template>
     <div id="text_img">
         <p>{{paragraphe}}</p>
-        <img :src="require(`../assets/${image}`)">
+        <img id="image" :src="require(`../assets/${image}`)">
     </div>
 </template>
 
@@ -21,7 +21,7 @@ export default {
     display: flex;
     flex-direction: row;
     width: 100%;
-    img{
+    #image{
         margin: 2%;
         flex: 1 1 20%;
         max-width: 20%;

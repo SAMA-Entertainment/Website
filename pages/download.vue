@@ -1,13 +1,88 @@
 <template>
-
+    <div id="download">
+        <NavBar/>
+        <div class="main-box-download">
+            <div class="project-box-download">
+                <h1>Télécharger</h1>
+                <DownBut text="Rapport de Projet"/>
+                <div id="portable">
+                    <DownBut text="Version Portable Windows"/>
+                    <DownBut text="Version Portable Linux"/>
+                    <DownBut text="Version Portable Mac"/>
+                </div>
+                <DownBut text="Jeu Complet
+                (Launcher Intégré)"/>
+            </div>
+        </div>
+        <p class="mention-download">Sofiane - Manassé - Aurélien - Alexandre</p>
+    </div>
 </template>
 
 <script>
 export default {
-    name: "download"
+    name: 'Download',
 }
 </script>
 
-<style scoped>
+<style lang="scss">
+@font-face {
+    font-family: "Mikuni";
+    src:url("../assets/Modak-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "SAMA";
+    src:url("../assets/BowlbyOne-Regular.ttf") format("truetype");
+}
 
+#download{
+    font-family: Mikuni, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    .main-box-download {
+        min-height: 90vh;
+        flex:1 1 90%;
+        width: 90%;
+        margin: 10% auto auto auto;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-between;
+        border: 0.5vw solid #473030;
+        background-image: url("../assets/download.png");
+    }
+    .project-box-download{
+        h1{
+            background:linear-gradient(to right,rgba(#ffdfe0,0.7),rgba(#fff7f5,0.7),rgba(#afdefc,0.7));
+            backdrop-filter:opacity(10%);
+            color:black;
+            margin:0 2vw;
+            padding: 20px;
+            font-size: xxx-large;
+        }
+        #portable{
+            display: flex;
+            flex-flow: row;
+        }
+        font-family: SAMA;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        height: 100%;
+        justify-content: center;
+        position: relative;
+    }
+    .mention-download {
+
+        font-family: SAMA;
+        font-size: 18px;
+        font-weight: 900;
+        text-align: center;
+        padding-bottom: 1.5%;
+    }
+}
 </style>

@@ -1,13 +1,14 @@
 <template>
-    <a href="#downloadbut">
-        <button class="button">
-        <h2>Télécharger</h2>
-        <span>(Coming Soon...)</span></button></a>
+    <a :href="link">
+        <button class="button"><h2>{{text}}</h2></button></a>
 </template>
 
 <script>
 export default {
-    name: "DownBut"
+    name: "DownBut",
+    props:{
+        text:String,
+        link:String}
 }
 </script>
 
@@ -29,5 +30,6 @@ export default {
 .button:hover {
     color: #ffdfe0;
     background-color: #10324d;
+    border: 1vh solid #ffdfe0;
 }
 </style>

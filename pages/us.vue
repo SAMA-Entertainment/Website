@@ -4,6 +4,7 @@
         <div class="main-box-us">
             <div class="project-box-us">
                 <h1>La "SAMATEAM"</h1>
+                <img style='max-width: 40%' :src="require('../assets/SAMA.png')"/>
                 <a href="https://github.com/Sofiman/Sofiman">
                     <h2>Sofiane MEFTAH, aka Sofiman</h2>
                     <ImgText image="sofiane.png" paragraphe="
@@ -102,7 +103,9 @@ export default {
             text-decoration:none;
             color: black;
         }
-
+        img{
+            border: 2px solid black;
+        }
         font-family: SAMA;
         display: flex;
         flex-flow: column nowrap;

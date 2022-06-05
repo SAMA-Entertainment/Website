@@ -9,7 +9,11 @@
                     'game2.png',
                     'game3.png',
                     'game4.png',
-                    'game5.png']"/>
+                    'game5.png',
+                    'game6.png',
+                    'game7.png',
+                    'game8.png',
+                    'game9.png']"/>
                 <h1>L'évolution du Menu</h1>
                 <Slider :width="1280" :pictures="[
                     'menu1.png',
@@ -18,7 +22,23 @@
                     'menu4.png',
                     'menu5.png',
                     'menu6.png',
-                    'menu7.png']"/>
+                    'menu7.png',
+                    'menu8.png',
+                    'menu9.png',
+                    'menu10.png',
+                    'menu11.png',
+                    'menu12.png',
+                    'menu13.png',
+                    'menu14.png']"/>
+                <h1>L'évolution du Launcher</h1>
+                <Slider :width="1280" :pictures="[
+                    'launcher1.png',
+                    'launcher2.png',
+                    'launcher3.png',
+                    'launcher4.png',
+                    'launcher5.png',
+                    'launcher6.png',
+                    'launcher7.png']"/>
             </div>
         </div>
         <p class="mention-proj">Sofiane - Manassé - Aurélien - Alexandre</p>

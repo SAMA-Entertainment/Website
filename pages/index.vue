@@ -4,7 +4,7 @@
         <div class="main-box">
             <div class="project-box">
                 <h1>Bienvenue sur le site du jeu Mikuni</h1>
-                <DownBut/>
+                <DownBut text="Télécharger le jeu"/>
             </div>
         </div>
         <p class="mention">Sofiane - Manassé - Aurélien - Alexandre</p>
@@ -27,14 +27,6 @@ export default {
     src:url("../assets/BowlbyOne-Regular.ttf") format("truetype");
 }
 
-h1{
-
-    background:linear-gradient(to right,#ffdfe0,#fff7f5,#afdefc);
-    opacity: 0.7;
-    color:black;
-    margin:0 2vw;
-    padding: 20px;
-}
 #app{
     font-family: Mikuni, sans-serif;
     margin: 0;
@@ -58,8 +50,11 @@ h1{
     }
     .project-box{
         h1{
-            background: #fff7f5;
-            color: #10324d;
+            background:linear-gradient(to right,rgba(#ffdfe0,0.7),rgba(#fff7f5,0.7),rgba(#afdefc,0.7));
+            backdrop-filter:opacity(10%);
+            color:black;
+            margin:0 2vw;
+            padding: 20px;
             font-size: xxx-large;
         }
         font-family: SAMA;
