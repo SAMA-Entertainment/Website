@@ -1,5 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  server: {
+    port: 80,
+    host: '0.0.0.0'
+  },
   head: {
     title: 'Mikuni',
     htmlAttrs: {
@@ -14,6 +18,16 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+  },
+  render: {
+      static: {
+          setHeaders(res) {
+              res.setHeader('X-Frame-Options', 'ALLOWALL')
+              res.setHeader('Access-Control-Allow-Origin', '*')
+              res.setHeader('Access-Control-Allow-Methods', 'GET')
+              res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept')
+          }
+      },
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
