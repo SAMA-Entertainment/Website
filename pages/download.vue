@@ -4,14 +4,14 @@
         <div class="main-box-download">
             <div class="project-box-download">
                 <h1>Télécharger</h1>
-                <DownBut text="Rapport de Projet"/>
+                <DownBut text="Rapport de Projet" link="BowlbyOne-Regular.ttf"/>
                 <div id="portable">
-                    <DownBut text="Version Portable Windows"/>
-                    <DownBut text="Version Portable Linux"/>
-                    <DownBut text="Version Portable Mac"/>
+                    <DownBut text="Version Portable Windows" link="BowlbyOne-Regular.ttf"/>
+                    <DownBut text="Version Portable Linux" link="BowlbyOne-Regular.ttf"/>
+                    <DownBut text="Version Portable Mac" link="BowlbyOne-Regular.ttf"/>
                 </div>
                 <DownBut text="Jeu Complet
-                (Launcher Intégré)"/>
+                (Launcher Intégré)" link="BowlbyOne-Regular.ttf"/>
             </div>
         </div>
         <p class="mention-download">Sofiane - Manassé - Aurélien - Alexandre</p>
@@ -48,7 +48,7 @@ export default {
         min-height: 90vh;
         flex:1 1 90%;
         width: 90%;
-        margin: 10% auto auto auto;
+        margin: 8% auto auto auto;
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-between;

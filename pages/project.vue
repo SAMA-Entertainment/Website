@@ -76,7 +76,7 @@ export default {
         min-height: fit-content;
         flex:1 1 90%;
         width: 90%;
-        margin: 10% auto auto auto;
+        margin: 8% auto auto auto;
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-between;

@@ -1,5 +1,5 @@
 <template>
-    <div id=""img-txt>
+    <div id="img-txt">
         <img id="image" :src="require(`../assets/${image}`)">
         <p>{{paragraphe}}</p>
     </div>

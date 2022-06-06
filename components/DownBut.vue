@@ -1,5 +1,5 @@
 <template>
-    <a :href="link">
+    <a :href="require(`../assets/${link}`)">
         <button class="button"><h2>{{text}}</h2></button></a>
 </template>
 
@@ -8,7 +8,7 @@ export default {
     name: "DownBut",
     props:{
         text:String,
-        link:String}
+        link:String,}
 }
 </script>
 

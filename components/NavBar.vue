@@ -36,7 +36,7 @@ export default {
     .logo {
         flex-basis:20vw;
         padding: 2vh;
-        max-width: 20vw;
+        max-width: 12vw;
         min-width: 8vw;
         flex:1 1 auto;
     }

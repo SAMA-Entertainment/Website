@@ -4,7 +4,7 @@
         <div class="main-box">
             <div class="project-box">
                 <h1>Bienvenue sur le site du jeu Mikuni</h1>
-                <DownBut text="Télécharger le jeu"/>
+                <RedirBut text="Télécharger le jeu" link="./download"/>
             </div>
         </div>
         <p class="mention">Sofiane - Manassé - Aurélien - Alexandre</p>
@@ -41,7 +41,7 @@ export default {
         min-height: 90vh;
         flex:1 1 90%;
         width: 90%;
-        margin: 10% auto auto auto;
+        margin: 8% auto auto auto;
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-between;

@@ -21,11 +21,6 @@ export default {
     display: flex;
     flex-direction: row;
     width: 100%;
-    #image{
-        margin: 2%;
-        flex: 1 1 20%;
-        max-width: 20%;
-    }
     p
     {
         flex: 1 1 auto;
@@ -33,5 +28,11 @@ export default {
         text-align: justify;
         text-align-last: right;
     }
+    #image{
+        margin: 2%;
+        flex: 1 1 20%;
+        max-width: 20%;
+    }
+
 }
 </style>

@@ -1,11 +1,11 @@
 <template>
-    <a :href="require(link)">
+    <a :href="link">
         <button class="button"><h2>{{text}}</h2></button></a>
 </template>
 
 <script>
 export default {
-    name: "DownBut",
+    name: "RedirBut",
     props:{
         text:String,
         link:String,}
