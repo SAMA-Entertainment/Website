@@ -15,7 +15,7 @@ export default {
 <style scoped>
 .button {
     padding: 1.3vh 5vw;
-    margin: 2vh 10vw;
+    margin: 2vh 5vw;
     color: #10324d;
     font-weight: bold;
     background-color: #ffdfe0;
