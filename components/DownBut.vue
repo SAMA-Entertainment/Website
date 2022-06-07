@@ -1,6 +1,7 @@
 <template>
-    <a :href="require(`../assets/${link}`)">
-        <button class="button"><h2>{{text}}</h2></button></a>
+    <a :href="link" download>
+        <button class="button"><h2>{{text}}</h2></button>
+    </a>
 </template>
 
 <script>

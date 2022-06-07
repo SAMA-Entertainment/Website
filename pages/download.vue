@@ -4,14 +4,14 @@
         <div class="main-box-download">
             <div class="project-box-download">
                 <h1>Télécharger</h1>
-                <DownBut text="Rapport de Projet" link="BowlbyOne-Regular.ttf"/>
+                <DownBut text="Jeu Complet (Launcher Intégré)" link="/download/files/full/MikuniSetup.exe"/>
                 <div id="portable">
-                    <DownBut text="Version Portable Windows" link="BowlbyOne-Regular.ttf"/>
-                    <DownBut text="Version Portable Linux" link="BowlbyOne-Regular.ttf"/>
-                    <DownBut text="Version Portable Mac" link="BowlbyOne-Regular.ttf"/>
+                    <DownBut text="Version Portable Windows" link="/download/files/portable/Mikuni_win_x86_64.zip"/>
+                    <DownBut text="Version Portable Linux" link="/download/files/portable/Mikuni_linux_x86_64.zip"/>
+                    <DownBut text="Version Portable Mac" link="/download/files/portable/Mikuni_macos.zip"/>
                 </div>
-                <DownBut text="Jeu Complet
-                (Launcher Intégré)" link="BowlbyOne-Regular.ttf"/>
+                <DownBut text="Rapport de Projet" link="/download/files/other/Rapport_Projet.pdf" />
+                <DownBut text="Guide de l'Utilisateur" link="/download/files/other/Guide_Installation_et_Utilisation.pdf" />
             </div>
         </div>
         <p class="mention-download">Sofiane - Manassé - Aurélien - Alexandre</p>
