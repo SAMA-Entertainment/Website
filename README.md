@@ -1,4 +1,8 @@
-# Mikuni
+# Mikuni - Front website repository
+
+This repository contains the source code of the front website.
+It uses the [Node.js](https://nodejs.org) as the JavaScript
+framework and [Nuxt.js](https://nuxtjs.org).
 
 ## Build Setup
 
